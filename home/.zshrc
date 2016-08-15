@@ -82,3 +82,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+source /opt/boxen/env.sh
+
+alias vim=nvim
+alias vi=nvim
+export EDITOR=vim
+eval "$(direnv hook zsh)"
